@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- favicon -->
+   <link rel="icon" type="image/png" href="icon.png">
+
+   <title>Booking Form</title>
+   <link rel="stylesheet" href="book.css">
+</head>
+<body>
+   <div class="wrapper">
+      <form action="#">
+         <h2>Booking Section</h2>
+         <div class="input-field">
+            <input type="text" list="mylist" required>
+            <label>Where would you like to go?</label>
+            <datalist id="mylist">
+               <option>Kathmandu</option>
+               <option>Pokhara</option>
+               <option>Chitwan</option>
+               <option>Lumbini</option>
+               <option>Mustang</option>
+               <option>Dharan</option>
+               <option>Janakpur</option>
+               <option>Nagarkot</option>
+               <option>Everest Base Camp</option>
+               <option>Annapurna Base Camp</option>
+            </datalist>
+         </div>
+
+         <div class="input-field">
+            <input type="text" required>
+            <label>Arrival date</label>
+         </div>
+
+         <button type="submit">Book</button>
+      </form>
+   </div>
+
+</body>
+</html>
